@@ -1,0 +1,18 @@
+����� ����� ��������  - 4520
+ ����� ������� �������� - 1130
+
+ document.getElementById('show_standard_deviation').addEventListener('click', function showStandardDeviation(){
+    let sum = 0
+    for (let i = 0; i<exchange.length; i++) {
+        sum = sum + exchange[i];
+    }
+    let n = sum / exchange.length;
+    let j = 0;
+    for (let b = 0; b<exchange.length; b++) {
+        j = j + Math.pow(b-n,2);
+    }
+
+    let k = Math.pow((exchange[0]-n), 2)
+
+    document.getElementById('standard_deviation').innerHTML = k;
+});

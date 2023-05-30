@@ -1,0 +1,58 @@
+.content {
+    background: #fff;
+    padding: 40px 0;
+    padding-bottom: 0;
+}
+
+.contact__inner {
+    color: #000;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__inner {
+    margin-top: 40px;
+    line-height: 15px;
+}
+
+.contact__docs {
+    display: flex;
+    flex-direction: column;
+}
+
+.docs_link {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+
+    color: #000;
+    margin-bottom: 10px;
+
+    transition: all linear .2s;
+}
+
+.docs_link:hover {
+    color: #FDCB00;
+}
+
+.docs_link_img {
+    margin-right: 10px;
+
+    width: 26px;
+    height: 36px;
+}
+.map {
+    margin-top: 30px;
+
+    height: 736px;
+    width: 100%;
+}
+
+.map__inner {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

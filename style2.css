@@ -1,0 +1,90 @@
+.content {
+    background: #000 url(background-fin.jpg) 
+    center center no-repeat scroll;
+    background-size: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.dark {
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: auto 100px;
+    padding-bottom: 30px;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+.sheets {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+    margin-top: 0;
+}
+
+.sheets__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 25%;
+    text-align: center;
+
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #FDCB00;
+    border-radius: 5px;
+}
+
+.cap__data {
+    margin: 0;
+}
+
+.table_data {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 2px solid #FDCB00;
+    border-collapse: collapse;
+}
+
+.table__title {
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.table__col {
+    padding: 5px;
+    text-align: center;
+}
+
+.current_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data__buttons {
+    background-color: rgba(255, 255, 255, .5);
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    transition: all linear .2s;
+
+}
+
+.data__buttons:hover {
+    background: #FDCB00;
+}

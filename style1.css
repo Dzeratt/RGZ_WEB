@@ -1,0 +1,151 @@
+/* CONTENT
+==========================*/
+
+.content {
+    height: 763px;
+
+    background: #000000 url(about_us_tabs.jpg)
+    center center no-repeat scroll;
+    background-size: 100%;
+
+    background-color: black;
+}
+
+.works_display {
+    display: flex;
+
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, .7);
+    height: 763px;
+    padding: 30px 20px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_us {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about_us_text {
+    text-indent: 30px;
+    margin: 30px 20px;
+    text-align: justify;
+}
+
+.link_duk {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.company_avtivity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company_avtivity_inner {
+    text-indent: 30px;
+    margin: 30px 20px;
+    text-align: justify;
+}
+
+.company_avtivity_inner_list {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/* SLIDER
+==========================*/
+
+.slider {
+    width: 100%;
+    max-width: 1128px;
+
+    overflow: hidden;
+}
+
+.slide {
+    width: 1130px;
+}
+
+.slider_line {
+    width: 3390px;
+    display: flex;
+    position: relative;
+
+    align-items: center;
+
+    left: 0;
+    transition: all ease 1s;
+
+}
+
+.slider_button {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .3);
+    border: 0;
+    font-family: "HeliosCond", sans-serif;
+    font-size: 30px;
+    color: #FDCB00;
+
+    transition: .1s;
+}
+
+
+/* SLIDER
+==========================*/
+
+
+.content_photo {
+    display: flex;
+
+    height: 736px;
+}
+
+.seven_photo {
+    height: 736px;
+    width: 1536px;
+}
+
+.photos {
+    height: 736px;
+    width: 100%;
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.photos_line {
+    height: 736px;
+    width: 10752px;
+    display: flex;
+
+    position: relative;
+    left: 0;
+
+    transition: all ease 1s;
+
+}
+
+.photo_buttons {
+    border-radius: 0;
+    border: 0;
+
+    background-color: #000000;
+    color: #fff;
+
+    transition: all ease 1s;
+}
+
+.photo_buttons:hover {
+    background-color: #FDCB00;
+}
+
+
